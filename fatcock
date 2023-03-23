@@ -64,7 +64,7 @@ getgenv().CharacterAdded = LocalPlayer.CharacterAdded:Connect(function(Character
                     end
                 end
                 -- Position
-                Character:WaitForChild('HumanoidRootPart').CFrame = CFrame.new(-304, 697, -1241)
+                Character:WaitForChild('HumanoidRootPart').CFrame = CFrame.new(-3772.06519, 427.523438, 106.215706, 0.998253644, 5.11187856e-08, 0.0590732731, -4.67040948e-08, 1, -7.61131531e-08, -0.0590732731, 7.32212726e-08, 0.998253644)
                 -- Stamina
                 if Percent(Character:WaitForChild('Stats'):GetAttribute("Stamina"),GetStamina()) <= Stamina then
                     Character:BreakJoints()
